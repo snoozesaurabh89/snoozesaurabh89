@@ -1,0 +1,9 @@
+SW1(config)#vlan 10
+SW1(config-vlan)#name MANAGEMENT
+SW1(config-vlan)#exit
+SW1(config)#vlan 20
+SW1(config-vlan)#name SSID1
+SW1(config-vlan)#exit
+SW1(config)#vlan 30
+SW1(config-vlan)#name SSID2
+SW1(config-vlan)#exit
